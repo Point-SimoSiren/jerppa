@@ -432,6 +432,14 @@ h1 a:hover, h2 a:hover, h3 a:hover { color: gray; }
   #topimg { margin-top: 0; }
   #topimg-desktop { display: none; }
   #topimg-mobile { display: block; }
+  #topimg #slogan .alateksti {
+    float: none;
+    display: block;
+    max-width: 17em;
+    margin-left: 20%;
+    margin-right: 0;
+    font-size: 135%;
+  }
   #front .widget_ownskit-article-list {
     float: none;
     width: auto;
@@ -477,7 +485,19 @@ h1 a:hover, h2 a:hover, h3 a:hover { color: gray; }
     margin-right: 0;
   }
   #site-title a { font-size: 18pt; }
-  #topimg #slogan { top: 27%; }
-  #topimg #slogan .otsikko { font-size: 400%; }
+  #topimg {
+    min-height: 205px;
+  }
+  #topimg #slogan {
+    top: 25%;
+    left: 36%;
+    right: 2%;
+  }
+  #topimg #slogan .otsikko { font-size: 360%; }
+  #topimg #slogan .alateksti {
+    max-width: 12em;
+    margin-left: 23%;
+    font-size: 120%;
+  }
   #page { min-width: 280px; }
 }
